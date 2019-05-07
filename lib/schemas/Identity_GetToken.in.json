@@ -1,0 +1,46 @@
+{
+    "type": "object",
+    "properties": {
+        "Metadata": {
+            "required": true,
+            "type": "string",
+            "enum": [
+                "true"
+            ]
+        },
+        "resource": {
+            "required": true,
+            "type": "string"
+        },
+        "client_id": {
+            "required": false,
+            "type": "string"
+        },
+        "object_id": {
+            "required": false,
+            "type": "string"
+        },
+        "msi_res_id": {
+            "required": false,
+            "type": "string"
+        },
+        "authority": {
+            "required": false,
+            "type": "string"
+        },
+        "bypass_cache": {
+            "required": false,
+            "type": "string",
+            "enum": [
+                "true"
+            ]
+        },
+        "api_version": {
+            "required": true,
+            "type": "string",
+            "enum": [
+                "2018-10-01"
+            ]
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "object",
+    "properties": {
+        "Metadata": {
+            "required": true,
+            "type": "string",
+            "enum": [
+                "true"
+            ]
+        },
+        "api_version": {
+            "required": true,
+            "type": "string",
+            "enum": [
+                "2018-10-01"
+            ]
+        }
+    }
+}
